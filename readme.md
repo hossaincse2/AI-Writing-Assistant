@@ -78,9 +78,9 @@ The application will be available at `http://localhost:5000`
 
 ```
 ai-writing-assistant/
-├── app.py                 # Main Flask application
+├── ai_writing_assistant.py                 # Main Flask application
 ├── templates/
-│   └── writing_assistant.html  # Frontend template
+│   └── index.html  # Frontend template
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables (optional)
 └── README.md             # This file
