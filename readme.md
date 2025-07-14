@@ -67,15 +67,7 @@ load_dotenv()
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 ```
 
-### 4. Create Templates Directory
-```bash
-mkdir templates
-```
-
-### 5. Save the HTML Template
-Save the HTML template as `templates/writing_assistant.html`
-
-### 6. Run the Application
+### 4. Run the Application
 ```bash
 python app.py
 ```
